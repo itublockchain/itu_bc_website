@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.linkbox {
+    position: relative;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    ;
+}
+
+.registerbox {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #3395C4;
+    color: white;
+}
+
+.fa-envelope {
+    background: red;
+    color: white;
+}
+
+.fa-user-plus {
+    background: #198754;
+    color: white;
+}
