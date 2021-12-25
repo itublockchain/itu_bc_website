@@ -19,7 +19,7 @@ export default class connectMetaMask extends Component {
                 <Card.Img src={this.props.imgMM === "imgMMRed" ? imgMMRed : imgMMGreen} id="imgMM" />
                 <hr/>
                 <Container>
-                  <Button variant={this.props.color ? "success" : "warning"} onClick={() => this.props.connectMetaMask()}>{this.props.color ? `Connected | ${this.props.nftBalance} ITUBC` : "Connect MetaMask"}</Button>
+                  <Button variant={this.props.color ? "success" : "warning"} onClick={() => this.props.connectMetaMask()}>{this.props.color ? `Connected | ${this.props.nftBalance} ITUGT` : "Connect MetaMask"}</Button>
                 </Container>
               </Card.Body>
             </Card>
