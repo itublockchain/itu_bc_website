@@ -10,26 +10,29 @@ export default class AppNavbar extends Component {
  
     render() {
       return (
-        <Navbar bg={this.props.bg} variant="dark">
-            <Container>
-                <Navbar.Brand>
+        <Navbar bg="success" variant="dark">
+            <Container style={{backgroundColor: "#4C8854"}}>
+                <Navbar.Brand style={{backgroundColor: "#4C8854"}}>
                     
-                    <a href="https://www.itublockchain.com" >
-                    <Image alt="ITU Blockchain Logo" style={{width: "60px"}} className='d-inline-block align-top' src={Logo} rounded />
+                    <a  href="https://www.itublockchain.com" >
+                    <Image alt="ITU Blockchain Logo" style={{width: "60px",backgroundColor: "#4C8854"}} className='d-inline-block align-top' src={Logo} rounded />
                             </a>
                 </Navbar.Brand>
-                <Nav className="ml-auto">
-                    <LinkContainer to="/">
+                <Nav className="ml-auto" >
+                    <LinkContainer to="/" style={{backgroundColor: "#4C8854"}}>
                         <Nav.Link>Home</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/nft">
-                        <Nav.Link>NFT</Nav.Link>
+                    <LinkContainer to="/about" style={{backgroundColor: "#4C8854"}}>
+                        <Nav.Link>About</Nav.Link >
                     </LinkContainer>
-                    <LinkContainer to="/submit">
-                        <Nav.Link>Get Gift</Nav.Link>
+                    <LinkContainer to="/grants" style={{backgroundColor: "#4C8854"}}>
+                        <Nav.Link>Grants</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/Hoodie">
-                        <Nav.Link>Hoodie</Nav.Link>
+                    <LinkContainer to="/blog" style={{backgroundColor: "#4C8854"}}>
+                        <Nav.Link>Blog</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/contact" style={{backgroundColor: "#4C8854"}}>
+                        <Nav.Link>Contact</Nav.Link>
                     </LinkContainer>
                 </Nav>
             </Container>

@@ -1,0 +1,46 @@
+.navbar-button:hover{
+    background-color: #F4CF12;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.navbar-height{
+  height: 100px;
+}
+
+.navbar-img{
+  height: 65px;
+}
+
+@media (max-width: 570px) {
+  .navbar-button {
+    font-size: 1rem;
+  }
+  .navbar-img {
+    height: 45px;
+  }
+  .navbar-height{
+    height: 70px;
+}
+}
+
+@media (max-width: 490px) {
+  .navbar-button {
+    font-size: 0.8rem;
+  }
+  .navbar-img {
+    height: 30px;
+  }
+
+  .navbar-height{
+    height: 80px;
+}
+
+  
+}
+
+.trial{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

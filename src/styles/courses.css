@@ -1,0 +1,32 @@
+.candb-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover:hover{
+    color: white;
+}
+
+.sm-hover:hover{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+@media (max-width: 1120px) {
+    .candb-flex-center {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    
+}
+
+@media (max-width: 560px) {
+    .photos {
+      width: 350px;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    
+}
