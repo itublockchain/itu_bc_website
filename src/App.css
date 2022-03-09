@@ -1,28 +1,29 @@
-/* body{
-    
-} */
-
-#total{
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-}
-#imgMM{
-    width: 49%;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
-#imgHoodie{
-    width: 46%;
+#total {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+#imgMM {
+  width: 49%;
 }
 
-#price{
-    display:inline-flex;
-    background-color: #ffc107;
-    border-radius: 5px;
-    padding: 1px 5px;
-    font-size: 1.3rem;
+#imgHoodie {
+  width: 46%;
 }
 
-#header, #footer{
-    background-color: #F8D7DA;
+#price {
+  display: inline-flex;
+  background-color: #ffc107;
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 1.3rem;
+}
+
+#header,
+#footer {
+  background-color: #f8d7da;
 }

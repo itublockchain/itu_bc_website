@@ -1,0 +1,12 @@
+.join {
+  background-color: #222;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 10px 10px;
+  color: #f4cf12;
+  font-size: 2rem;
+}
+.join :hover {
+  opacity: 0.5;
+  color: white;
+}

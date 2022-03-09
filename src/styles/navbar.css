@@ -1,15 +1,68 @@
-.navbar-button:hover{
-    background-color: #F4CF12;
-    color: #000000;
-    border-radius: 10px;
+.navbar-button {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.navbar-button:hover {
+  background-color: #f4cf12;
+  color: #000000;
+  border-radius: 10px;
 }
 
-.navbar-height{
+.navbar-joinus {
+  background-color: #f4cf12;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.navbar-height {
+  z-index: 22;
   height: 100px;
+  justify-content: space-around;
+  padding: 0px 20px;
 }
 
-.navbar-img{
+.bars {
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.navbar-img {
   height: 65px;
+}
+.navbar-img:hover {
+  transform: scale(1.5);
+}
+.links {
+  display: flex;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0px;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+  .navbar-height {
+    justify-content: space-between !important;
+  }
+}
+
+@media (min-width: 768.1px) {
+  .bars {
+    display: none;
+  }
 }
 
 @media (max-width: 570px) {
@@ -19,9 +72,9 @@
   .navbar-img {
     height: 45px;
   }
-  .navbar-height{
+  .navbar-height {
     height: 70px;
-}
+  }
 }
 
 @media (max-width: 490px) {
@@ -32,14 +85,12 @@
     height: 30px;
   }
 
-  .navbar-height{
+  .navbar-height {
     height: 80px;
+  }
 }
 
-  
-}
-
-.trial{
+.trial {
   display: flex;
   align-items: center;
   justify-content: space-around;
