@@ -1,0 +1,39 @@
+.big-box {
+  padding-bottom: 40px;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+.big-box h5 {
+  color: #f4cf12;
+}
+.big-box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.big-box :hover {
+  opacity: 0.5;
+}
+
+.single-box a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.single-box {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 730px) {
+  .big-box {
+    padding-bottom: 20px;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+}
