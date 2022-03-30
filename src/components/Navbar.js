@@ -35,7 +35,7 @@ const Navbar = () => {
         rel="noopener noreferrer"
         className="td-none"
       >
-        <span className="fc-f4 padding-3100-3100 navbar-button navbar-joinus">
+        <span className="fc-f4 padding-3100-3100 navbar-button navbar-joinus aramiza-katil">
           <b>Aramıza Katıl</b>
         </span>
       </a>

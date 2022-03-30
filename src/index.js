@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./styles/common.css";
 import "./styles/navbar.css";
 import "./styles/courses.css";
+import "./styles/staff.css";
 
 ReactDOM.render(
   <React.StrictMode>

@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import SocialMedia from "./components/SocialMedia";
 import Blog from "./components/Blog";
 import Courses from "./components/Courses";
+import Staff from "./components/Staff";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
       <About id="about" />
       <Courses />
       <Blog />
+      <Staff />
       <SocialMedia />
       <Footer />
     </div>
