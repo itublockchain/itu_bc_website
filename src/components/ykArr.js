@@ -19,17 +19,17 @@ const ykArr = [
   },
   {
     url: "https://twitter.com/ulerdogan",
-    fullName: "Ulas Erdogan",
+    fullName: "Ulaş Erdoğan",
     photo: Ulas,
   },
   {
     url: "https://twitter.com/0xismailemin",
-    fullName: "Ismail Emin Erdogdu",
+    fullName: "İsmail Emin Erdoğdu",
     photo: Ismail,
   },
   {
     url: "https://twitter.com/aalimsahin",
-    fullName: "Alim Sahin",
+    fullName: "Alim Şahin",
     photo: Alim,
   },
   {
@@ -39,37 +39,37 @@ const ykArr = [
   },
   {
     url: "https://twitter.com/hamza_krb",
-    fullName: "Hamza Karabag",
+    fullName: "Hamza Karabağ",
     photo: Hamza,
   },
   {
     url: "https://twitter.com/Cenki05",
-    fullName: "Ismail Cenk Aksoy",
+    fullName: "İsmail Cenk Aksoy",
     photo: Cenk,
   },
   {
     url: "https://twitter.com/dogutez",
-    fullName: "Dogukan Tezcan",
+    fullName: "Doğukan Tezcan",
     photo: Dogukan,
   },
   {
     url: "https://twitter.com/zafer_eth",
-    fullName: "Zafer Guray Gunduz",
+    fullName: "Zafer Güray Gündüz",
     photo: Zafer,
   },
   {
     url: "https://twitter.com/8Weckl",
-    fullName: "Bahri Bugra Meydan",
+    fullName: "Bahri Buğra Meydan",
     photo: Bugra,
   },
   {
     url: "https://twitter.com/SonofaWorker",
-    fullName: "Enes Celik",
+    fullName: "Enes Çelik",
     photo: Enes,
   },
   {
     url: "https://twitter.com/egethemanque",
-    fullName: "Ahmet Ege Agus",
+    fullName: "Ahmet Ege Aguş",
     photo: Ege,
   },
 ];
