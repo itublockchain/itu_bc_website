@@ -51,4 +51,10 @@
   .header {
     font-size: 3rem;
   }
+  .arrows {
+    display: none;
+  }
+  .height-75-vh {
+    min-height: 40vh;
+  }
 }

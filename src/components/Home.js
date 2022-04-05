@@ -3,7 +3,7 @@ import Logo from "../images/3214.jpg";
 const Home = () => {
   return (
     <div className="bg-1c flex-column-center height-100-vh" id="home">
-      <span className="header-special fw-bold fc-f4" style={{}}>
+      <span className="header-special fw-bold fc-f4 first-header" style={{}}>
         İTÜ BLOCKCHAIN
       </span>
       <img
