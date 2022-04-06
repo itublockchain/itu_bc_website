@@ -5,6 +5,7 @@ import Mail from "../images/mailBY.png";
 import Linkedin from "../images/linkedinBY.png";
 import Medium from "../images/mediumBY.png";
 import Discord from "../images/discordBY.png";
+import Telegram from "../images/telegram.png";
 
 const SocialMedia = () => {
   return (
@@ -58,7 +59,15 @@ const SocialMedia = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="width10060 sm-hover" alt="mail" src={Discord} />
+          <img className="width10060 sm-hover" alt="discord" src={Discord} />
+        </a>
+
+        <a
+          href="https://t.me/+pi8HyaKUYNBmNGY8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="width10060 sm-hover" alt="telegram" src={Telegram} />
         </a>
 
         <a
