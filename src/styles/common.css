@@ -13,9 +13,6 @@
   align-items: center;
 }
 
-/* .item {
-} */
-
 .flex-column-center {
   display: flex;
   flex-direction: column;
