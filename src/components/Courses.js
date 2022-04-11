@@ -30,7 +30,6 @@ const Courses = () => {
             className="owl-theme blog-course-padding"
             loop
             margin={10}
-            nav
             ref={ref}
           >
             {tutorialArr.map((item) => (

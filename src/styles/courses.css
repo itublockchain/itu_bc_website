@@ -46,7 +46,7 @@
   object-fit: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 560px) {
   .owl-dots {
     display: none;
   }
@@ -60,10 +60,13 @@
   .header {
     font-size: 3rem;
   }
-  .arrows {
-    display: none;
-  }
+
   .height-75-vh {
     min-height: 40vh;
+  }
+  @media (max-width: 560px) {
+    .arrows {
+      display: none;
+    }
   }
 }
