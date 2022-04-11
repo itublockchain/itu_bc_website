@@ -26,7 +26,7 @@ const Blog = () => {
             {<FaArrowLeft />}
           </div>
           <ReactOwlCarousel
-            items={isMobile ? 1 : 3}
+            items={isMobile ? 1 : 2}
             className="owl-theme blog-course-padding"
             loop
             margin={10}

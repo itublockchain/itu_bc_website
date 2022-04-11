@@ -1,6 +1,8 @@
 import Medium1 from "../images/medium1.jpg";
 import Medium2 from "../images/medium2.jpg";
 import Medium3 from "../images/medium3.png";
+import Medium4 from "../images/medium4.png";
+import Medium5 from "../images/medium5.png";
 
 const blogArr = [
   {
@@ -20,6 +22,18 @@ const blogArr = [
     header: "Ethereum and Turing Completeness",
     date: "8 Mart 2022",
     photo: Medium3,
+  },
+  {
+    url: "https://blog.itublockchain.com/defia-giri%C5%9F-2f4b3f2cf4ff",
+    header: "DeFi’a Giriş",
+    date: "14 Mart 2022",
+    photo: Medium4,
+  },
+  {
+    url: "https://blog.itublockchain.com/ethereum-improvement-proposal-eip-nedir-d7ec7e0a55f2",
+    header: "Ethereum Improvement Proposal (EIP) Nedir?",
+    date: "30 Mart 2022",
+    photo: Medium5,
   },
 ];
 

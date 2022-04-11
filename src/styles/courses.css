@@ -42,11 +42,20 @@
 }
 .photos {
   width: 450px;
+  min-height: 220px;
+  object-fit: cover;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 768px) {
+  .owl-dots {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
   .photos {
     width: 350px;
+    min-height: 20px;
   }
   .header {
     font-size: 3rem;
