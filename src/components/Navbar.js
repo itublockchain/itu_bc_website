@@ -16,6 +16,11 @@ const Navbar = () => {
           Hakkımızda
         </span>
       </a>
+      <a className="td-none" href="#achievements">
+        <span className="fc-f4 padding-3100-3100 navbar-button">
+          Başarılarımız
+        </span>
+      </a>
       <a className="td-none" href="#courses">
         <span className="fc-f4 padding-3100-3100 navbar-button">Eğitim</span>
       </a>
@@ -38,6 +43,15 @@ const Navbar = () => {
         <span className="fc-f4 padding-3100-3100 navbar-button navbar-joinus aramiza-katil">
           <b>Aramıza Katıl</b>
         </span>
+      </a>
+
+      <a
+        className="td-none"
+        href="https://gitcoin.co/grants/1970/itu-blockchain"
+        target="_blank"
+      >
+        <span className="fc-f4 padding-3100-3100 navbar-button eng">🇬🇧</span>
+        <span className="fc-f4 padding-3100-3100 navbar-button tur">🇹🇷</span>
       </a>
     </>
   );

@@ -7,12 +7,14 @@ import SocialMedia from "./components/SocialMedia";
 import Blog from "./components/Blog";
 import Courses from "./components/Courses";
 import Staff from "./components/Staff";
+import Achievements from "./components/Achievements";
 const App = () => {
   return (
     <div>
       <Navbar />
       <Home id="home" />
       <About id="about" />
+      <Achievements id="achievements" />
       <Courses />
       <Blog />
       <Staff />

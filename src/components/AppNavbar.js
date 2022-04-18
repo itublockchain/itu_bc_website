@@ -29,6 +29,12 @@ export default class AppNavbar extends Component {
             <LinkContainer to="/about" style={{ backgroundColor: "#4C8854" }}>
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
+            <LinkContainer
+              to="/achievements"
+              style={{ backgroundColor: "#4C8854" }}
+            >
+              <Nav.Link>Achievements</Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/grants" style={{ backgroundColor: "#4C8854" }}>
               <Nav.Link>Grants</Nav.Link>
             </LinkContainer>

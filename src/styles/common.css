@@ -158,3 +158,30 @@
 .margin-3100-3100 {
   margin: 10% 10%;
 }
+
+.phts {
+  width: 650px;
+}
+
+@media (max-width: 880px) {
+  .phts {
+    width: 550px;
+  }
+}
+@media (max-width: 750px) {
+  .phts {
+    width: 450px;
+  }
+}
+
+@media (max-width: 570px) {
+  .phts {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .phts {
+    width: 200px;
+  }
+}
