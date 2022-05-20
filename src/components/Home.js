@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="bg-1c flex-column-center height-100-vh" id="home">
       <span className="header-special fw-bold fc-f4 first-header" style={{}}>
-        İTÜ BLOCKCHAIN
+        ITU BLOCKCHAIN
       </span>
       <img
         alt="ITU Blockchain"

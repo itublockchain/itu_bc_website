@@ -26,7 +26,7 @@ const Achievements = () => {
         <br />
 
         <span className="fc-f4 fs-150">
-          Avalanche Hacks Istanbul Secondary Place
+          Avalanche Hacks Istanbul Second Place
         </span>
         <br />
         <br />

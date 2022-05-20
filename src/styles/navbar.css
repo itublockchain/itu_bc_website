@@ -101,3 +101,10 @@
   background-color: #f8de7e;
   transition: 0.5s;
 }
+
+.flags {
+  width: 30px;
+  height: 30px;
+  font-size: large;
+  cursor: pointer;
+}

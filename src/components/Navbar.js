@@ -4,25 +4,26 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpener] = useState(false);
+
   const links = (
     <>
       <a className="td-none" href="#top">
         <span className="fc-f4 padding-3100-3100 navbar-button">
-          Ana&nbsp;Sayfa
+          "Ana Sayfa"
         </span>
       </a>
       <a className="td-none" href="#about">
         <span className="fc-f4 padding-3100-3100 navbar-button">
-          Hakkımızda
+          "Hakkımızda"
         </span>
       </a>
       <a className="td-none" href="#achievements">
         <span className="fc-f4 padding-3100-3100 navbar-button">
-          Başarılarımız
+          "Başarılarımız"
         </span>
       </a>
       <a className="td-none" href="#courses">
-        <span className="fc-f4 padding-3100-3100 navbar-button">Eğitim</span>
+        <span className="fc-f4 padding-3100-3100 navbar-button">"Eğitim"</span>
       </a>
       <a className="td-none" href="#blog">
         <span className="fc-f4 padding-3100-3100 navbar-button">Blog</span>
@@ -41,7 +42,7 @@ const Navbar = () => {
         className="td-none"
       >
         <span className="fc-f4 padding-3100-3100 navbar-button navbar-joinus aramiza-katil">
-          <b>Aramıza Katıl</b>
+          <b>"Aramıza Katıl"</b>
         </span>
       </a>
 
@@ -49,10 +50,7 @@ const Navbar = () => {
         className="td-none"
         href="https://gitcoin.co/grants/1970/itu-blockchain"
         target="_blank"
-      >
-        <span className="fc-f4 padding-3100-3100 navbar-button eng">🇬🇧</span>
-        <span className="fc-f4 padding-3100-3100 navbar-button tur">🇹🇷</span>
-      </a>
+      ></a>
     </>
   );
 
@@ -69,6 +67,7 @@ const Navbar = () => {
       <div className="bars" onClick={() => setOpener(!open)}>
         <FaBars />
       </div>
+
       <div className={`menu ${open ? "" : "d-none"}`}>{links}</div>
     </div>
   );
